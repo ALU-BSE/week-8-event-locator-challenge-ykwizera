@@ -1,0 +1,132 @@
+/* Custom styles that extend Bootstrap */
+
+/* Hero section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1200&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    margin-bottom: 30px;
+}
+
+/* Event card hover effect */
+.event-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.event-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Date badge */
+.date-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Category pill */
+.category-pill {
+    display: inline-block;
+    padding: 0.25em 0.6em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10rem;
+}
+
+/* Event details page */
+.event-header {
+    position: relative;
+    color: white;
+}
+
+.event-header-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.event-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+/* Search form styling */
+.search-form {
+    background-color: var(--bs-body-bg);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: -50px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    padding: 30px 0;
+    border-top: 1px solid var(--bs-secondary-bg);
+}
+
+/* No events message */
+.no-events {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Loading spinner */
+.loader {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+/* Map container for event details */
+.map-container {
+    height: 300px;
+    width: 100%;
+    background-color: var(--bs-secondary-bg);
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+/* Make images responsive */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Use Font Awesome icons consistently */
+.icon {
+    margin-right: 0.5rem;
+}
+
+/* Provide min-height for cards to ensure consistency */
+.card {
+    min-height: 100px;
+}
