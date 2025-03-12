@@ -1,0 +1,42 @@
+[
+    {
+      "id": "all",
+      "name": "All Categories"
+    },
+    {
+      "id": "music",
+      "name": "Music"
+    },
+    {
+      "id": "technology",
+      "name": "Technology"
+    },
+    {
+      "id": "food",
+      "name": "Food & Drink"
+    },
+    {
+      "id": "arts",
+      "name": "Arts & Culture"
+    },
+    {
+      "id": "sports",
+      "name": "Sports"
+    },
+    {
+      "id": "business",
+      "name": "Business"
+    },
+    {
+      "id": "health",
+      "name": "Health & Wellness"
+    },
+    {
+      "id": "education",
+      "name": "Education"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping"
+    }
+  ]
